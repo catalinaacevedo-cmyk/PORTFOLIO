@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTAFOLIO Catalina Alejandra Acevedo Pacheco</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- SOCIAL MEDIA ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"><!-- FLAGS -->
+  <!-- Enlace a tu CSS personalizado -->
+  <link rel="stylesheet" href="assets/css/portafolio.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg" aria-label="Main">
+      <div class="avatar-contenedor">
+        <img src="assets/img/IMG_0916.PNG" class="avatar avatar-lg" alt="Catalina Acevedo">
+      </div>
+      <div class="container">
+        <h2>Coding is <span id="containerTyped"></span></h2>
+      </div>
+      <div class="containerMenuButton">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="material-icons icon-2x" aria-hidden="true">menu</i>
+        </button>
+        <div class="collapse navbar-collapse text-uppercase" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Link</a>
+            </li>
+            <div class="btn-group">
+              <button type="button" class="btn btn-outline-primary btn-sm dropdown-toggle" onclick="toggleDropdown()"
+                aria-expanded="false"><i class="bi bi-globe-americas"></i>
+                Language
+              </button>
+              <div class="menulan" role="menu">
+                <a class="language-option" href="#" role="menuitem" onclick="changeLanguage('en')">
+                  <span class="fi fi-gb"></span> English</a>
+                <a class="language-option" href="#" role="menuitem" onclick="changeLanguage('es')">
+                  <span class="fi fi-es"></span> Español</a>
+                <a class="language-option" href="#" role="menuitem" onclick="changeLanguage('fr')">
+                  <span class="fi fi-fr"></span> Français</a>
+                <a class="language-option" href="#" role="menuitem" onclick="changeLanguage('dk')">
+                  <span class="fi fi-dk"></span> Dansk</a>
+              </div>
+            </div>
+        </div>
+    </nav>
+
+  </header>
+
+
+
+  <main>
+
+    <article>
+      <h2 id="title"><i class="bi bi-signpost-split-fill"></i>Habilidades aprendidas durante el módulo 2 del bootcamp.</h2>
+    </article>
+
+   <div class="row row-cols-1 row-cols-md-2 g-2">
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_01.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 01</h5>
+        <p class="card-text"> <li>La primera tarea que realizamos fue crear una página web dedicada a un personaje famoso.</li>
+          <li>A continuación, elaboramos un currículum vitae y aprendimos a utilizar el formato de texto en <strong>negritas</strong> y <i>cursiva</i></li>
+      </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_02.PNG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 02</h5>
+        <p class="card-text"><li>Aprendimos a crear formularios, en los cuales utlizamos elementos de entrada, como Input, Textarea, Select, para captar información.</select></textarea></li></p>
+        <li>Los formularios utilizan el metodo de envío como <strong>GET </strong>para obtener datos o <strong>POST</strong> para captar información.</li>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_03.PNG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 03</h5>
+        <p class="card-text">Aprendimos CSS y realizamos tablas con colores.
+          También aprendimos a crear botones con estilos.
+        </p><table><p>Ejemplo de tabla:</p>
+          <thead>
+              <tr>
+                  <th>Nombre</th>
+                  <th>Edad</th>
+                  <th>Ciudad</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Dogma</td>
+                  <td>8</td>
+                  <td>Santiago</td>
+              </tr>
+              <tr>
+                  <td>Victoria</td>
+                  <td>33</td>
+                  <td>Dinamarca</td>
+              </tr>
+              <tr>
+                  <td>Loreto</td>
+                  <td>34</td>
+                  <td>Copiapo</td>
+              </tr>
+          </tbody>
+      </table>
+      
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_04.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 04</h5>
+        <p class="card-text">Aprendimos sobre la responsabilidad de diseño con el enfoque mobile first.
+          <li>Google favorece los sitios que están optimizados para móviles, lo que puede mejorar el posicionamiento en los motores de búsqueda.</li></p>
+          <p><li>Esto asegura la funcionalidad, independientemente del dispositivo.</li></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_05_01.png" class="card-img-top" alt="...">
+      <img src="assets/img/sesion_05_skyp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 05</h5>
+        <ul>
+          <li><p class="card-text">Aprendimos sobre Bootstrap y realizamos una tabla.
+          Creamos una página web para una aerolínea llamada SkyP.</p></li>
+        <li><p>Aprendimos a usar las NAVBAR y CARDS de bootstrap</p></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_05.png" class="card-img-top" alt="...">
+      <img src="assets/img/sesion_06_aerovia.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 06</h5>
+        <ul>
+          <li>
+            <p class="card-text">Creamos un formulario utilizando Bootstrap, que incluía un componente llamado jumbotron.</p></li>
+          <li>
+            <p>Diseñamos una página con un buscador de vuelo para una aerolínea similar a LAN</p>
+          </li>
+        </ul>
+          
+        </p> 
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_07.png" class="card-img-top" alt="...">
+      <img src="assets/img/sesion_07_02.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 07</h5>
+        <ul>
+          <li><p class="card-text">Aprendimos JavaScript e hicimos un ejercicio para comparar números con alertas.
+          </p></li>
+          <li><p>También creamos un menú utilizando un Prompt y una Alert para una empresa de celulares.</p></li>
+        </ul>
+        
+        
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_08.png" class="card-img-top" alt="...">
+      <img src="assets/img/sesion_08_cajero.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 08</h5>
+        <ul>
+          <li>
+            <p class="card-text">Aprendimos sobre control de flujo en JavaScript y realizamos un menú que nos permitía salir y elegir distintas opciones.
+            </p>
+          </li>
+          <li><p>Creamos un menú similar al de un banco en línea.</p></li>
+        </ul>
+        
+          
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_09.png" class="card-img-top" alt="...">
+      <img src="assets/img/sesion_09_02.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 09</h5>
+        <ul>
+          <li>
+            <p class="card-text">Manipulamos el DOM para hacer que los elementos aparecieran y desaparecieran, o se agrandaran mediante JavaScript.</p>
+          </li>
+          <li><p>Creamos una lista de tareas pendientes, donde podíamos agregar nuevas tareas y eliminarlas.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_10_01.png" class="card-img-top" alt="...">
+      <img src="assets/img/sesion_10.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 10</h5>
+        <ul>
+          <li>
+            <p><p class="card-text">Repetimos el ejercicio de la sesión 09, pero esta vez los elementos aparecieron y desaparecieron con jQuery.</p>
+          </li>
+          <li><p>En este ejercicio, tomamos la página que habíamos realizado anteriormente de SkyP y la actualizamos, añadiendo la opción de agrandar la descripción.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_11.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 11</h5>
+        <ul>
+          <li>
+            <p><p class="card-text">Aprendimos a utilizar Git Bash. Git es un sistema que controla todas las versiones que existan de nuestro código, permitiéndonos navegar 
+              entre las diferentes versiones que han existido, crear ramas, que serán lugares donde podremos trabajar sin alterar la versión estable actual y que, 
+              cuando se encuentre terminada una nueva funcionalidad, nos permite incorporarla a la versión estable sin riesgos</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/img/sesion_12.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesión 12</h5>
+        <ul>
+          <li>
+            <p><p class="card-text">Aprendimos sobre GitHub que es un proveedor de alojamiento de repositorios en la nube (remoto), gestionado por Git. Es el
+              más usado y permite albergar un número ilimitado de repositorios tanto públicos como privados.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+
+
+    <section>
+      <figure>
+        <blockquote class="blockquote text-center">
+          <p id="quote">"When you're curious, you find lots of interesting things to do."</p>
+        </blockquote>
+        <figcaption class="blockquote-footer text-center mt-n2">
+        <cite title="Source Title">Walter Elias Disney</cite>
+        </figcaption>
+      </figure>
+    </section>
+
+    <br>
+    
+<div class ="seccionContacto">
+    <section id="contacto">
+      <h2 id="contact">CONTACTO<i class="bi bi-feather"></i></h2>
+      <form id="signup-form">
+        <div class="row g-2">
+          <div class="col-auto">
+            
+            <label for="name" class="visually-hidden">First name</label>
+            
+            <input type="text" required class="form-control border-0 fst-italic" id="name" placeholder="First name">
+          </div>
+          <div class="col-auto">
+            <label for="email" required class="visually-hidden">Email</label>
+            
+            <input type="email" class="form-control border-0 fst-italic" id="email" placeholder="Email address">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary" id="signup">Registrarse</button>
+          </div>
+        </div>
+      </form>
+      <p id="follow">Sígueme en mis redes sociales:</p>
+      <div class="social-icons">
+        <a href="https://wa.me/tu-número" target="_blank" class="me-2"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://vimeo.com/tu-usuario" target="_blank" class="me-2"><i class="bi bi-vimeo"></i></a>
+        <a href="https://instagram.com/tu-usuario" target="_blank"class="me-2"><i class="bi bi-instagram"></i></a>
+        <a href="https://instagram.com/tu-usuario" target="_blank"class="me-2"><i class="bi bi-github"></i></a>
+      </div>
+    </section>
+  </div>
+
+<div class="containerCountdown">
+      <h5 id="countdown-title"><i class="bi bi-hourglass-split"></i>Término del Bootcamp en...</h5>
+      <div class="countdown" data-countdown="Jan 13, 2025 23:59:59"></div>
+</div>
+
+
+
+</main>
+
+
+
+  <footer>
+    <p class="copy">&copy; 2024 Catalina Alejandra Acevedo Pacheco Todos los derechos reservados.</p>
+  </footer>
+
+
+  <!-- Enlace a jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Enlace a Popper.js (necesario para Bootstrap) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <!-- Enlace a Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <!-- Enlace a tu JavaScript personalizado -->
+  <script src="./assets/js/portafolio.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+</body>
+
+</html>
