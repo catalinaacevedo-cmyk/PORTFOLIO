@@ -7,14 +7,13 @@
     align-items: center;
     justify-content: flex-end;
     margin-left: 20px;
-    float:right;
-    
+    float:right;  
 }
+
 .avatar {
     width: 100%;
     height: auto;
-    object-fit:cover;
-    
+    object-fit:cover;   
 }
 
 .navbar {
@@ -24,33 +23,33 @@
     padding: 1rem;
 }
 
-
 .containerMenuButton {
     position: absolute;
     right: 80px;
     color: #333;
     z-index: 1000;
     display: flex;
-
 }
 
 #containerTyped {
-
     font-family: 'Courier New', Courier, monospace;
     color: #00ff00;
 }
 
-
 .nav-link {
-    color: rgb(214, 214, 214);
-      
+    color: rgb(214, 214, 214);    
 }
+
 .nav-link:hover {
     color: #eaac28;
 }
 
 
 /* BODY */
+
+h2 {
+    text-align: center;
+}
 
 main {
     padding: 15px;
@@ -62,7 +61,6 @@ main {
     padding: 100px;
 }
 
-
 /* Quote */
 .blockquote {
     margin:0px;
@@ -72,23 +70,21 @@ main {
 
 .blockquote-footer {
     padding-bottom: 50px;
-    color:linen
-    
+    color:linen;  
 }
 
 footer {
-    
     background-color: rgb(127, 133, 159);
     color: #e2e6ea;
 }
 
 
 /* Menu Lenguajes */
+
 .btn-group {
     margin-left: 10px;
     position: relative;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
 .dropdown-toggle {
@@ -123,10 +119,12 @@ footer {
     margin-right: 8px; 
     font-size: 1.2em;
 }
+
 .language-option:hover {
     background-color: #f1f1f1;
     color: #007bff;
 }
+
 .language-option:focus {
     outline: none;
     background-color: #bcbfc2;
@@ -134,11 +132,22 @@ footer {
 
 /* Contacto */
 
-.seccionContacto {
+#contact {
+    margin-bottom: 0px;
+}
 
+.seccionContacto {
+    text-align: center;
     color:rgb(255, 255, 255);   
 }
 
+#signup-form {
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .btn-primary {
     background-color:#534fda;
@@ -148,10 +157,16 @@ footer {
 /* ICONOS REDES SOCIALES :)  */
 
 .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
     font-size: 1.5em;
 }
 
 .social-icons a {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
     color: #332eba;
     text-decoration: none;
 }
@@ -180,13 +195,17 @@ footer {
 
 /* colorist/sobre_mi */
 
+.descripcion {
+    
+    margin: 20px;
+}
+
 .sobreMi {
     margin: 0px;
     padding: 80px;
     text-align: justify;
     line-height: 1.6;
 }
-
 
 .image-container {
     position:relative;
@@ -196,9 +215,25 @@ footer {
     height: 90%;
 }
 
+.sideQuest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.sideQuest img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+}
+
+.sideQuest:hover  .colorize {
+    filter: grayscale(0%); 
+}
+
 .colorist_example {
     text-align: center;
-    
 }
 
 .colorize {
@@ -215,7 +250,7 @@ footer {
 /* Estilos responsivos */
 @media (max-width: 768px) {
     header nav ul li {
-        display: none; /* Cambio a bloque para apilar en pantallas pequeñas */
+        display: none; 
         margin: 10px 0;
     }
 
@@ -225,7 +260,7 @@ footer {
     }
 
     h2 {
-        font-size: 1.5em; /* Ajuste del tamaño del encabezado */
+        font-size: 1.5em; 
     }
 }
 
@@ -239,21 +274,22 @@ footer {
     }
 
     h2 {
-        font-size: 1.2em; /* Ajuste adicional del tamaño del encabezado */
+        font-size: 1.2em;
     }
 }
 
 /* Estilos para pantallas grandes (4K) */
 @media (min-width: 1200px) {
     main {
-        padding: 40px; /* Aumentar el padding en pantallas grandes */
+        padding: 60px;
+        font-size: 1.3em;
     }
 
     h2 {
-        font-size: 2.5em; /* Mayor tamaño de encabezado */
+        font-size: 2.5em;
     }
 
     h3 {
-        font-size: 1.75em; /* Aumentar el tamaño de los subtítulos */
+        font-size: 1.75em;
     }
 }
