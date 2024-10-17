@@ -1,60 +1,3 @@
-function mostrarmenu() {
-
-    const vanguardias = [
-        "Impresionismo: finales siglo XIX, nos enfocamos en la luz y el color sobre la forma; usamos pinceladas sueltas y colores vibrantes para capturar la impresión visual de un momento",
-        "Postimpresionismo: Principios del siglo XX, Utilizamos el color puro y vibrante; distorisiónamos la realidad para expresar nuestras emociones",
-        "Cubismo: Inicios del siglo XX, Representamos los objetos desde múltiples ángulos simultáneamente, rompemos con la perspectiva tradicional",
-        "Futurismo: Comienzos del siglo XX, Enfatizamos el movimiento, la velocidad y la tecnología; celebramos la modernidad y la ruptura del pasado",
-        "Dadaísmo: Principios del siglo XX, rechazamos la lógica y la razón, utilizamos el azar y el absurdo como forma de arte.",
-        "surrealismo: A partir de 1920, Exploramos el inconsciente y los sueños; mezclaremos lo real y lo imaginario para crear nuevas realidades",
-        "Expresionismo: comienzos del siglo XX, Representamos la realidad dubjetivamente; nos enfocamos en la expresión emocional y el uso distorsionado del color y la forma",
-        "constructivismo: Rusia, principios del siglo XX, Nos enfocamos en la abstracción geométrica y la construcción, reflejamos la estetica de la modernidad industrial",
-        "Neoplasticismo: Principios del siglo XX, Utilizamos formas geométricas y colores primarios; buscamos un arte universal y abstracto",
-        "Pop art: finales de 1950 y 1960: Utilizamos imágenes y temas de la cultura popular y el consumismo; a menudo tiene un tono irónico",
-        "Minimalismo: 1960 en adelante: Reducción a lo esencial; enfasis en la simplicidad y la pureza de forma.",
-    ];
-
-    let opcion;
-do {
-    opcion = prompt(`
-        Elige una aventura:
-        1. un día como hoy en la historia.
-        2. vanguardias al azar.
-        3. coordenada
-        4. personaje favorito
-        5. salir e ir al Porfolio
-    `);
-
-    switch (opcion) {
-    case '1':
-        alert('Jacob Philipp Hackert, fue un pintor paisajista alemán neoclásico.');
-        break;
-    case '2':
-        const mensajeAleatorio = vanguardias[Math.floor(Math.random() * vanguardias.length)];
-        alert(mensajeAleatorio);
-        break;
-    case '3':
-        alert('34.096681, -118.344076');
-        break;
-    case '4':
-        alert('Walt Elias Disney');
-        break;
-     case '5':
-        alert('Abortando misión');
-        break;y
-    default:
-        if (isNaN(opcion) || opcion < 1 || opcion > 5) {7
-            alert('opción iválida, Por favor, ingresa un número del 1 al 5.');
-        }
-        break;
-
-    }
-    
-  } while (opcion !== '5');
-}
-
-mostrarmenu();
-
 
   document.addEventListener("DOMContentLoaded", function() {
     var options = {
@@ -377,3 +320,59 @@ function changeLanguage(language) {
   console.log("Language changed to: " + language);
 }
 
+function mostrarmenu() {
+
+    const vanguardias = [
+        "Impresionismo: finales siglo XIX, nos enfocamos en la luz y el color sobre la forma; usamos pinceladas sueltas y colores vibrantes para capturar la impresión visual de un momento",
+        "Postimpresionismo: Principios del siglo XX, Utilizamos el color puro y vibrante; distorisiónamos la realidad para expresar nuestras emociones",
+        "Cubismo: Inicios del siglo XX, Representamos los objetos desde múltiples ángulos simultáneamente, rompemos con la perspectiva tradicional",
+        "Futurismo: Comienzos del siglo XX, Enfatizamos el movimiento, la velocidad y la tecnología; celebramos la modernidad y la ruptura del pasado",
+        "Dadaísmo: Principios del siglo XX, rechazamos la lógica y la razón, utilizamos el azar y el absurdo como forma de arte.",
+        "surrealismo: A partir de 1920, Exploramos el inconsciente y los sueños; mezclaremos lo real y lo imaginario para crear nuevas realidades",
+        "Expresionismo: comienzos del siglo XX, Representamos la realidad dubjetivamente; nos enfocamos en la expresión emocional y el uso distorsionado del color y la forma",
+        "constructivismo: Rusia, principios del siglo XX, Nos enfocamos en la abstracción geométrica y la construcción, reflejamos la estetica de la modernidad industrial",
+        "Neoplasticismo: Principios del siglo XX, Utilizamos formas geométricas y colores primarios; buscamos un arte universal y abstracto",
+        "Pop art: finales de 1950 y 1960: Utilizamos imágenes y temas de la cultura popular y el consumismo; a menudo tiene un tono irónico",
+        "Minimalismo: 1960 en adelante: Reducción a lo esencial; enfasis en la simplicidad y la pureza de forma.",
+    ];
+
+    let opcion;
+do {
+    opcion = prompt(`
+        Elige una aventura:
+        1. un día como hoy en la historia.
+        2. vanguardias al azar.
+        3. coordenada
+        4. personaje favorito
+        5. salir e ir al Porfolio
+    `);
+
+    switch (opcion) {
+    case '1':
+        alert('Jacob Philipp Hackert, fue un pintor paisajista alemán neoclásico.');
+        break;
+    case '2':
+        const mensajeAleatorio = vanguardias[Math.floor(Math.random() * vanguardias.length)];
+        alert(mensajeAleatorio);
+        break;
+    case '3':
+        alert('34.096681, -118.344076');
+        break;
+    case '4':
+        alert('Walt Elias Disney');
+        break;
+     case '5':
+        alert('Abortando misión');
+        break;y
+    default:
+        if (isNaN(opcion) || opcion < 1 || opcion > 5) {7
+            alert('opción iválida, Por favor, ingresa un número del 1 al 5.');
+        }
+        break;
+
+    }
+    
+  } while (opcion !== '5');
+}
+
+mostrarmenu();
