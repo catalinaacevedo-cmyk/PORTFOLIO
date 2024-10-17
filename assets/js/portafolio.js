@@ -122,3 +122,5 @@ function changeLanguage(language) {
   
   console.log("Language changed to: " + language);
 }
+
+
