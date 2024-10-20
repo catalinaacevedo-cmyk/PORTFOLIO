@@ -250,7 +250,6 @@ footer {
 /* Estilos responsivos */
 @media (max-width: 768px) {
     header nav ul li {
-        display: none; 
         margin: 10px 0;
     }
 
